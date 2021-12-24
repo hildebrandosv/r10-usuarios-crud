@@ -1,0 +1,41 @@
+/*╔════════════════════════════════════════════════╗
+  ║ MAIN STYLES CSS sheet                          ║
+  ╚════════════════════════════════════════════════╝*/
+/* Font import and root and body css */
+/* @import url('https://fonts.googleapis.com/css2?family=Coustard:wght@400;900&family=Press+Start+2P&display=swap'); */
+/* Variables definition */
+* {
+   --colorBgNavBarr: #f9da68;
+   --colorMainTitle: #313172;
+   --colorMainFooter: green;
+   --colorBgError: lightgray;
+   --colorTxtError: red;
+   --colorBgSuccess: #BFFF5F;
+   --colorTxtSuccess: green;
+   --colorBgForms: #262645;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: none;
+}
+body {
+  height: 100%;
+  background-color: #d3f1a5;
+  /* background-image: url('../images/peple01.png'); */
+  /* background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover; */
+}
+.clMainTitle {
+  color: var(--colorMainTitle);
+  font-size: 2rem;
+}
+.clSecondaryTitle {
+  color: var(--colorMainTitle);
+  font-size: 21px;
+  font-style: italic;
+}
+.clBgForms {
+  background-color: var(--colorBgForms);
+  opacity: 0.9;
+}
